@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { skills } from '../data/portfolioData';
 import { useRevealRef } from '../hooks/useScrollAnimation';
-import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaNodeJs } from "react-icons/fa6";
+import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaNodeJs } from "react-icons/fa";
 import { SiTypescript, SiRedux, SiNextdotjs, SiTailwindcss, SiMongodb } from "react-icons/si";
 
 const CATEGORY_ICONS = {
